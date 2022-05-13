@@ -1,0 +1,6 @@
+framework module FYFLabelHeight {
+  umbrella header "FYFLabelHeight-umbrella.h"
+
+  export *
+  module * { export * }
+}

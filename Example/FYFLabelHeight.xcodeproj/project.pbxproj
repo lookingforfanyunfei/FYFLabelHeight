@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F9FD3B7282DFAB400A80C34 /* FYFLimitNumberOfLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FD3B4282DFAB400A80C34 /* FYFLimitNumberOfLineController.m */; };
+		0F9FD3B8282DFAB400A80C34 /* FYFUnLimitNumberOfLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FD3B6282DFAB400A80C34 /* FYFUnLimitNumberOfLineController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,7 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23F1D48FFB9619E446A61E2F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0F9FD3B3282DFAB400A80C34 /* FYFLimitNumberOfLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYFLimitNumberOfLineController.h; sourceTree = "<group>"; };
+		0F9FD3B4282DFAB400A80C34 /* FYFLimitNumberOfLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYFLimitNumberOfLineController.m; sourceTree = "<group>"; };
+		0F9FD3B5282DFAB400A80C34 /* FYFUnLimitNumberOfLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYFUnLimitNumberOfLineController.h; sourceTree = "<group>"; };
+		0F9FD3B6282DFAB400A80C34 /* FYFUnLimitNumberOfLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYFUnLimitNumberOfLineController.m; sourceTree = "<group>"; };
+		23F1D48FFB9619E446A61E2F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		33C278475E3534BFBD7A6B8C /* Pods-FYFLabelHeight_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFLabelHeight_Tests.release.xcconfig"; path = "Target Support Files/Pods-FYFLabelHeight_Tests/Pods-FYFLabelHeight_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FYFLabelHeight_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYFLabelHeight_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,8 +70,8 @@
 		877C51F69E5B45305328D730 /* Pods-FYFLabelHeight_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFLabelHeight_Example.release.xcconfig"; path = "Target Support Files/Pods-FYFLabelHeight_Example/Pods-FYFLabelHeight_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9870661BD284C36B06B683B5 /* Pods_FYFLabelHeight_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYFLabelHeight_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6732B7E7D234FC72B8E33A /* Pods_FYFLabelHeight_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYFLabelHeight_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E33D5DDF980FC97D4FDA1B43 /* FYFLabelHeight.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FYFLabelHeight.podspec; path = ../FYFLabelHeight.podspec; sourceTree = "<group>"; };
-		EF988C238B0031380DC67E7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E33D5DDF980FC97D4FDA1B43 /* FYFLabelHeight.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FYFLabelHeight.podspec; path = ../FYFLabelHeight.podspec; sourceTree = "<group>"; };
+		EF988C238B0031380DC67E7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F8F9E0C554B523EEAA10D946 /* Pods-FYFLabelHeight_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFLabelHeight_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FYFLabelHeight_Tests/Pods-FYFLabelHeight_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +109,6 @@
 				F8F9E0C554B523EEAA10D946 /* Pods-FYFLabelHeight_Tests.debug.xcconfig */,
 				33C278475E3534BFBD7A6B8C /* Pods-FYFLabelHeight_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +154,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* FYFViewController.h */,
 				6003F5A6195388D20070C39A /* FYFViewController.m */,
+				0F9FD3B3282DFAB400A80C34 /* FYFLimitNumberOfLineController.h */,
+				0F9FD3B4282DFAB400A80C34 /* FYFLimitNumberOfLineController.m */,
+				0F9FD3B5282DFAB400A80C34 /* FYFUnLimitNumberOfLineController.h */,
+				0F9FD3B6282DFAB400A80C34 /* FYFUnLimitNumberOfLineController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -259,6 +268,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -322,10 +332,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FYFLabelHeight_Example/Pods-FYFLabelHeight_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FYFLabelHeight/FYFLabelHeight.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FYFLabelHeight.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -383,8 +395,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F9FD3B8282DFAB400A80C34 /* FYFUnLimitNumberOfLineController.m in Sources */,
 				6003F59E195388D20070C39A /* FYFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FYFViewController.m in Sources */,
+				0F9FD3B7282DFAB400A80C34 /* FYFLimitNumberOfLineController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
