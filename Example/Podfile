@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FYFLabelHeight_Example' do
+  pod 'FYFLabelHeight', :path => '../'
+
+  target 'FYFLabelHeight_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
