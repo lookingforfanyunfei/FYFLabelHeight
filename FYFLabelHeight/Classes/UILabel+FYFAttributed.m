@@ -1,16 +1,16 @@
 //
-//  UILabel+Attributed.m
-//  KSForeignTrade
+//  UILabel+FYFAttributed.m
+//  FYFLabelHeight
 //
 //  Created by 范云飞 on 2019/10/12.
-//  Copyright © 2019 kingstar. All rights reserved.
+//  Copyright © 2019 fanyunfei. All rights reserved.
 //
 
-#import "UILabel+Attributed.h"
+#import "UILabel+FYFAttributed.h"
 
-@implementation UILabel (Height)
+@implementation UILabel (FYFAttributed)
 
-- (void)setLabelAttributedText:(NSString *)text
+- (void)fyf_setLabelAttributedText:(NSString *)text
                           font:(UIFont *)font
                      lineSpace:(CGFloat)lineSpace
                      wardSpace:(CGFloat)wordSpace {

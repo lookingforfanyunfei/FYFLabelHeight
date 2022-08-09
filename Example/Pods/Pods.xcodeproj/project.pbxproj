@@ -9,17 +9,19 @@
 /* Begin PBXBuildFile section */
 		05284F5695543EC05A6221D6EABCD0FD /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C4808A7B284FD5CE12AF500644E1A /* Masonry-dummy.m */; };
 		0A7AA7F18381B8048D3519006DBCAB4A /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE1DDE1A00CE0531A4DF74A6C2EB5F8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F43BAB4B6819BC64D24BBF48936462C /* NSString+FYFSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7433D3CAC451F82F82A595A3B9A9B14F /* NSString+FYFSize.m */; };
 		10A0CDFFF9A0DA4FF69F0E2B8B68BFC1 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A8E30D4F9F5E4535B69508873FAD12 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		120EA60D03CFEEF2370587020458EACE /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 636796616D38EB5C7185BD684C7AE48B /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19A912D394F54A8BD6C181C015A3ECC1 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 498E8B0053FC9C12650256AC7795C1C6 /* MASViewAttribute.m */; };
+		19B5539CF413F166B5969A183CE29277 /* UILabel+FYFAttributed.m in Sources */ = {isa = PBXBuildFile; fileRef = E448611B0F488C1BAE67771116EB7321 /* UILabel+FYFAttributed.m */; };
 		1D1C48F4268E8A5F765C61F07013A412 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
 		1E675BD7FCDD87EAD3EA2677EDECBF20 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 823AE4B4979D09F91ADB18679CF355CD /* MASCompositeConstraint.m */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B367BF20EC952AD50F06D3171735002D /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FE906D1776953BE9D61D90E2912B79C /* UILabel+FYFAttributed.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA5D8739C63B3F7AE9AA5EE49C8A2B2 /* UILabel+FYFAttributed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28A3E38077C2538C308373BB47B8C37A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3538C14800BA6D283B6500C766E4F0D3 /* SwiftSupport.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 67380272F2DF7819A336DF552AD92896 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C8C5FB6B08903F5E61BC11825DD04E7 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CB974288A2892A90F9702F03E0697C /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		2C953B0986EB49B029F2912F0F601A06 /* UILabel+Attributed.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FED4C2880B554654B0258641BD9D91D /* UILabel+Attributed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A691C70504B82F1D79E0F50DF6B488 /* UIImage+Snapshot.m */; };
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		2FFCAA550C6B9306D8977E6965E89F08 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F83E555D0CF0CB47EB4F7E712AAAE4 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,10 +30,8 @@
 		36B9157B681E2F6A3CF3EF82CF7E4A12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 43FD0500F155110FC81738ABCFD8722E /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		38881A6218104E1ECAFE22A51B79BFD5 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E502E95D75F8DF19C71E7419515430D /* MASViewConstraint.m */; };
-		3C88E6F4D809113B1DE32A8F87890C7F /* FYFLabelHeight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1B99B3A9E0A7E2813F2DE8FAC755A /* FYFLabelHeight-dummy.m */; };
 		418CE5C48AB49CCE649940C56CBE1FB6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A394C2C6ABAE5BF5090CF2AD98C696AF /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		449270AFCA05657A93937B04D29B1448 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D39570D3C32595968B12039E56A71CC2 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48044158A97C33844B9D2DE1B46366CD /* UILabel+Attributed.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF912CA947876724757D6F2DC56B05 /* UILabel+Attributed.m */; };
 		4A1586E6A84C94C4E7384FB6B60A4C76 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EDFA8CC2AD68834644662EE1AC469B03 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = F793D8588CD60BFFC82AF37C9BC308D0 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B839A35A2BFBEC3479FF1552F569BC /* FBSnapshotTestCase-dummy.m */; };
@@ -42,7 +42,6 @@
 		665792639A80411F631D96AB8DCEF0CD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A12C368749FD2EEF1BB8849594446F /* MASConstraint.m */; };
 		66ED3C2BE66277A6BECB3C11A900D91E /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B17D6A5548097996EE3796656A32B6D2 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 2547F69451A0A27A16D11D9705986E91 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		711CF2F33740FBF7EE658802E310EEAB /* FYFLabelHeight-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 785B78C9FB4510E0D7BDA478692F5CBC /* FYFLabelHeight-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A282C53A123426D0DC6CB96D76A6B7 /* UIApplication+StrictKeyWindow.m */; };
 		747863A8CB00A36579584977D0090E3C /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 909597D5A7270BB0B845363BD757AC74 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77545A28E8B98BC15BB0220A3B0EEA76 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 602E46B1DC438E157FEFDB89FFC1FEE0 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,14 +49,16 @@
 		7A34B930D542B92CFCEBE66D55994632 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0FB1357DE7D247BE34CCB29EDCCFAC /* ViewController+MASAdditions.m */; };
 		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = C43B4427803F45E5EE12A79C135ABCEE /* FBSnapshotTestCase.m */; };
 		7C873A0B4BEC78C52EE4B1B82F983626 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 66BA6286FFDDBFEF509A327789F6D690 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EB8BABC0E964E68C08A1168E7D6202F /* NSString+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = 98146D09609078644802E904CA11BFD3 /* NSString+Size.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
 		8895F648A18A10633958F96ADBE237FC /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 05ED7991BE91B391C4F38B25354DEEB6 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = E20173728E322CA943398A88168AD012 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		936CE2092628F93BA85168EFC176BC09 /* Pods-FYFLabelHeight_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D5D0B29C7F82A1912A0725ADD733E91 /* Pods-FYFLabelHeight_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		A1AB4057A8D284A467BD28AD8E341831 /* NSString+FYFSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 945304892823BB08A11414A0F01FBD73 /* NSString+FYFSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 9016A8DDB9A4258DCC8B1B3DDECA0207 /* UIImage+Compare.m */; };
 		B96CDF2B3AC2E390AB60A0B8E8BE4A87 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E5B4DDA3A6742DA86BC33EDEB35F59 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B97518628E71F6624C6D5D2483EF558C /* FYFLabelHeight-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76689B14DE5DB9854F5F25752AACA5EA /* FYFLabelHeight-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB3B0D7A06FDDC70A7D5904C7D55C08C /* FYFLabelHeight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BB1E5F61E488D2B8F01AD652E23B32 /* FYFLabelHeight-dummy.m */; };
 		BBDD569327FED1DA86B5E3EC84E01C6F /* Pods-FYFLabelHeight_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9F6C8525176E9ECE501E49E67B2D9F /* Pods-FYFLabelHeight_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC1714350E199D430C6758AFB32F7716 /* Pods-FYFLabelHeight_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D360DBC4C01963EA2F0D814E7CB4A409 /* Pods-FYFLabelHeight_Tests-dummy.m */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AD9A6CFD4331B9A23C2F7983498CF3 /* FBSnapshotTestController.m */; };
@@ -66,7 +67,6 @@
 		CA946ABDDC22543000B64034DA97EBD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		CC175B8F401545DBB5EAAA0C10BACECF /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = E1664911F55968A776BA11F00D8E434D /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA2481C9D30D3A074D4495705525B529 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AAAA6DA488D5DF77D99C020E582627 /* MASConstraintMaker.m */; };
-		EB255D00BE334141E5D1E476018354A4 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 524120A769CE00C52A75ADE5FDD31E1A /* NSString+Size.m */; };
 		FDC2CA224581C4B06BE9E9A1D68E1F56 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 351B469F82A69464763DA9A8A556D5E4 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF076FAFB26874CBA381EB99068AACBD /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B32DC82B087A3199F46DEE37F30C42D4 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CEEB1F6C31B89937C80AD46D2ECA574 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -122,7 +122,9 @@
 		1D0FB1357DE7D247BE34CCB29EDCCFAC /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		1D80D37E04B1D3CBB92465EB8BB38F01 /* Pods-FYFLabelHeight_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYFLabelHeight_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1EC1D6DB29CA7D19E62068D4AEDB7D78 /* FYFLabelHeight.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FYFLabelHeight.modulemap; sourceTree = "<group>"; };
 		1F2A6BCDB8B38970BAAE92CDDEBB3B20 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		1FF65723155E7493E2D44A9101109270 /* FYFLabelHeight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYFLabelHeight.debug.xcconfig; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		218D9BC395A2B493ACC164EB435FF023 /* Pods-FYFLabelHeight_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FYFLabelHeight_Tests.modulemap"; sourceTree = "<group>"; };
 		2547F69451A0A27A16D11D9705986E91 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
@@ -132,64 +134,61 @@
 		27DA303DBB7E087CE9560BA4AE5D91CC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		2CEEB1F6C31B89937C80AD46D2ECA574 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		2D5D0B29C7F82A1912A0725ADD733E91 /* Pods-FYFLabelHeight_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYFLabelHeight_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2FF1B99B3A9E0A7E2813F2DE8FAC755A /* FYFLabelHeight-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FYFLabelHeight-dummy.m"; sourceTree = "<group>"; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		351B469F82A69464763DA9A8A556D5E4 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		3538C14800BA6D283B6500C766E4F0D3 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		3718E916FFA8781BA9CE7EF76C259626 /* Pods-FYFLabelHeight_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYFLabelHeight_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		391F58711ABE27B1EC7FE8AE808305A2 /* Pods-FYFLabelHeight_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FYFLabelHeight_Example"; path = Pods_FYFLabelHeight_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A63998D182D67724151908FD97DE0A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3CFF912CA947876724757D6F2DC56B05 /* UILabel+Attributed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Attributed.m"; path = "FYFLabelHeight/Classes/UILabel+Attributed.m"; sourceTree = "<group>"; };
+		39B2A683C5C18210F419CA6352B3A477 /* FYFLabelHeight-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYFLabelHeight-prefix.pch"; sourceTree = "<group>"; };
+		39FE178D0D4D71588082EC23EACD5A94 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		41CB974288A2892A90F9702F03E0697C /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		42982C9DA6035C206B7806E18C396979 /* Pods-FYFLabelHeight_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYFLabelHeight_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		43FD0500F155110FC81738ABCFD8722E /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		4871A52CA55BF121B6E66A5A90FE11DD /* FYFLabelHeight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYFLabelHeight.release.xcconfig; sourceTree = "<group>"; };
 		498E8B0053FC9C12650256AC7795C1C6 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		4E23264EAEE90C636113E571CE6EB42E /* Pods-FYFLabelHeight_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYFLabelHeight_Example-Info.plist"; sourceTree = "<group>"; };
-		4FC1F95615F14CAE541349ECD916C972 /* FYFLabelHeight.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FYFLabelHeight.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4FED4C2880B554654B0258641BD9D91D /* UILabel+Attributed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Attributed.h"; path = "FYFLabelHeight/Classes/UILabel+Attributed.h"; sourceTree = "<group>"; };
 		51578A1CEE9E9D26C7DF19EE8277B170 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
-		524120A769CE00C52A75ADE5FDD31E1A /* NSString+Size.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Size.m"; path = "FYFLabelHeight/Classes/NSString+Size.m"; sourceTree = "<group>"; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5B391E25DECCEB37714F91D024D461B6 /* Pods-FYFLabelHeight_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYFLabelHeight_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		602E46B1DC438E157FEFDB89FFC1FEE0 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		636796616D38EB5C7185BD684C7AE48B /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		65E12F728E2D0037AC4BB48B94AED78D /* FYFLabelHeight-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FYFLabelHeight-Info.plist"; sourceTree = "<group>"; };
+		65BB1E5F61E488D2B8F01AD652E23B32 /* FYFLabelHeight-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FYFLabelHeight-dummy.m"; sourceTree = "<group>"; };
 		66BA6286FFDDBFEF509A327789F6D690 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		67380272F2DF7819A336DF552AD92896 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		6FC2AE68752E5B55AEA71347146FA794 /* Pods-FYFLabelHeight_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYFLabelHeight_Tests-Info.plist"; sourceTree = "<group>"; };
 		73DA2B3A3C8E6F3A7D976D1C4C4BCEC9 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		7433D3CAC451F82F82A595A3B9A9B14F /* NSString+FYFSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FYFSize.m"; path = "FYFLabelHeight/Classes/NSString+FYFSize.m"; sourceTree = "<group>"; };
 		75B839A35A2BFBEC3479FF1552F569BC /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		76689B14DE5DB9854F5F25752AACA5EA /* FYFLabelHeight-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYFLabelHeight-umbrella.h"; sourceTree = "<group>"; };
 		7731683F4BFFF04ACBB3E9BA86F1B2BA /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		77A3D02CEFBFF305EF63BADC91A37D7E /* FYFLabelHeight.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FYFLabelHeight.modulemap; sourceTree = "<group>"; };
-		785B78C9FB4510E0D7BDA478692F5CBC /* FYFLabelHeight-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYFLabelHeight-umbrella.h"; sourceTree = "<group>"; };
 		7C9F6C8525176E9ECE501E49E67B2D9F /* Pods-FYFLabelHeight_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYFLabelHeight_Example-umbrella.h"; sourceTree = "<group>"; };
 		7E502E95D75F8DF19C71E7419515430D /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		823AE4B4979D09F91ADB18679CF355CD /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		8940D361FD89F610F4C862B772A33E51 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		8AAFF8AF890673A53FF1E5A18ABAF3D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9016A8DDB9A4258DCC8B1B3DDECA0207 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		909597D5A7270BB0B845363BD757AC74 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		945304892823BB08A11414A0F01FBD73 /* NSString+FYFSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FYFSize.h"; path = "FYFLabelHeight/Classes/NSString+FYFSize.h"; sourceTree = "<group>"; };
 		94A691C70504B82F1D79E0F50DF6B488 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		960C22A11E27923ADF40B7B5483D49CE /* Pods-FYFLabelHeight_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYFLabelHeight_Example-dummy.m"; sourceTree = "<group>"; };
-		9767CD1675F59D38AA6FD91B88FFCAEF /* FYFLabelHeight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYFLabelHeight.debug.xcconfig; sourceTree = "<group>"; };
-		98146D09609078644802E904CA11BFD3 /* NSString+Size.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Size.h"; path = "FYFLabelHeight/Classes/NSString+Size.h"; sourceTree = "<group>"; };
 		98E5B4DDA3A6742DA86BC33EDEB35F59 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA5D8739C63B3F7AE9AA5EE49C8A2B2 /* UILabel+FYFAttributed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+FYFAttributed.h"; path = "FYFLabelHeight/Classes/UILabel+FYFAttributed.h"; sourceTree = "<group>"; };
 		A394C2C6ABAE5BF5090CF2AD98C696AF /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		A4A12C368749FD2EEF1BB8849594446F /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		A5ADEF2C33BF1C36E1F6020EA61D65B7 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
 		A6020B7F3A4401D5B76CC5205CE75390 /* Pods-FYFLabelHeight_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYFLabelHeight_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACB016279124E4B071F61BC022072E41 /* FYFLabelHeight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYFLabelHeight.release.xcconfig; sourceTree = "<group>"; };
 		AF67143D836443165FFD3958E5187904 /* Pods-FYFLabelHeight_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYFLabelHeight_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B17D6A5548097996EE3796656A32B6D2 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		B2D178C4C14DC0089FDEEA83130EDB20 /* Pods-FYFLabelHeight_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYFLabelHeight_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B32DC82B087A3199F46DEE37F30C42D4 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		B367BF20EC952AD50F06D3171735002D /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		B398A2AF601884C77F93A82F0543CC65 /* FYFLabelHeight.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FYFLabelHeight.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		BF110DE70107316228863B82A51A09D3 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		C43B4427803F45E5EE12A79C135ABCEE /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		C6A0C9722139721114FA4D3DA1FAC336 /* Pods-FYFLabelHeight_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYFLabelHeight_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C9B1910B76A104A86986E8D7F74F4224 /* FYFLabelHeight */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FYFLabelHeight; path = FYFLabelHeight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28E867524AA47971B6DA058F42258E6 /* FYFLabelHeight-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FYFLabelHeight-Info.plist"; sourceTree = "<group>"; };
 		D360DBC4C01963EA2F0D814E7CB4A409 /* Pods-FYFLabelHeight_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYFLabelHeight_Tests-dummy.m"; sourceTree = "<group>"; };
 		D39570D3C32595968B12039E56A71CC2 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		D8AD9A6CFD4331B9A23C2F7983498CF3 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
@@ -199,11 +198,12 @@
 		DFE72805626641332E27A0EE2C6EF88B /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		E1664911F55968A776BA11F00D8E434D /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		E20173728E322CA943398A88168AD012 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		E448611B0F488C1BAE67771116EB7321 /* UILabel+FYFAttributed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+FYFAttributed.m"; path = "FYFLabelHeight/Classes/UILabel+FYFAttributed.m"; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E9F42ABE638A0FBA66442B6500A44C06 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EC868A183EDFB31E94C97CFB0105CD45 /* Pods-FYFLabelHeight_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYFLabelHeight_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EDFA8CC2AD68834644662EE1AC469B03 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		F3F2771A54A01AD10FA73A3394EC8C06 /* Pods-FYFLabelHeight_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FYFLabelHeight_Example.modulemap"; sourceTree = "<group>"; };
-		F5C561EECF6315C74B3DBD21B8E3F759 /* FYFLabelHeight-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYFLabelHeight-prefix.pch"; sourceTree = "<group>"; };
 		F793D8588CD60BFFC82AF37C9BC308D0 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		F8B824D9A7085CA34CAEB877C43AD78B /* Pods-FYFLabelHeight_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FYFLabelHeight_Tests"; path = Pods_FYFLabelHeight_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE1DDE1A00CE0531A4DF74A6C2EB5F8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
@@ -290,20 +290,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		510CAF7B445F7AF0041E3AF91F12A32A /* FYFLabelHeight */ = {
-			isa = PBXGroup;
-			children = (
-				98146D09609078644802E904CA11BFD3 /* NSString+Size.h */,
-				524120A769CE00C52A75ADE5FDD31E1A /* NSString+Size.m */,
-				4FED4C2880B554654B0258641BD9D91D /* UILabel+Attributed.h */,
-				3CFF912CA947876724757D6F2DC56B05 /* UILabel+Attributed.m */,
-				BB3B7D9A1885764B6EEEDB71E161A52D /* Pod */,
-				A29A9C182A3DFFA1633C0B51169C3F49 /* Support Files */,
-			);
-			name = FYFLabelHeight;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		53296E97FBF30AF4F234CE434589FF3E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,7 +305,7 @@
 		58A693EB81D37591426A3AB09AB4B486 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				510CAF7B445F7AF0041E3AF91F12A32A /* FYFLabelHeight */,
+				F07798714C25ED1D3A143D2DBA024F15 /* FYFLabelHeight */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -339,6 +325,21 @@
 			);
 			name = "Pods-FYFLabelHeight_Tests";
 			path = "Target Support Files/Pods-FYFLabelHeight_Tests";
+			sourceTree = "<group>";
+		};
+		66D413F116B801B40FD5912A18E78585 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EC1D6DB29CA7D19E62068D4AEDB7D78 /* FYFLabelHeight.modulemap */,
+				65BB1E5F61E488D2B8F01AD652E23B32 /* FYFLabelHeight-dummy.m */,
+				D28E867524AA47971B6DA058F42258E6 /* FYFLabelHeight-Info.plist */,
+				39B2A683C5C18210F419CA6352B3A477 /* FYFLabelHeight-prefix.pch */,
+				76689B14DE5DB9854F5F25752AACA5EA /* FYFLabelHeight-umbrella.h */,
+				1FF65723155E7493E2D44A9101109270 /* FYFLabelHeight.debug.xcconfig */,
+				ACB016279124E4B071F61BC022072E41 /* FYFLabelHeight.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FYFLabelHeight";
 			sourceTree = "<group>";
 		};
 		717370984CC95901120CD02EACC41D72 /* SwiftSupport */ = {
@@ -364,6 +365,16 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
+		8484DC608EA58FB15C0E228D5557F640 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B398A2AF601884C77F93A82F0543CC65 /* FYFLabelHeight.podspec */,
+				39FE178D0D4D71588082EC23EACD5A94 /* LICENSE */,
+				E9F42ABE638A0FBA66442B6500A44C06 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		93B540AA89C248A1B42428248A3C850B /* Pods-FYFLabelHeight_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -381,21 +392,6 @@
 			path = "Target Support Files/Pods-FYFLabelHeight_Example";
 			sourceTree = "<group>";
 		};
-		A29A9C182A3DFFA1633C0B51169C3F49 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				77A3D02CEFBFF305EF63BADC91A37D7E /* FYFLabelHeight.modulemap */,
-				2FF1B99B3A9E0A7E2813F2DE8FAC755A /* FYFLabelHeight-dummy.m */,
-				65E12F728E2D0037AC4BB48B94AED78D /* FYFLabelHeight-Info.plist */,
-				F5C561EECF6315C74B3DBD21B8E3F759 /* FYFLabelHeight-prefix.pch */,
-				785B78C9FB4510E0D7BDA478692F5CBC /* FYFLabelHeight-umbrella.h */,
-				9767CD1675F59D38AA6FD91B88FFCAEF /* FYFLabelHeight.debug.xcconfig */,
-				4871A52CA55BF121B6E66A5A90FE11DD /* FYFLabelHeight.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FYFLabelHeight";
-			sourceTree = "<group>";
-		};
 		B658CE446B469A6CB1DD01F837BFE848 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -403,7 +399,6 @@
 				7CCF7D1AA6AE105E48E6A9CA8861E692 /* Support Files */,
 				717370984CC95901120CD02EACC41D72 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -413,16 +408,6 @@
 				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BB3B7D9A1885764B6EEEDB71E161A52D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4FC1F95615F14CAE541349ECD916C972 /* FYFLabelHeight.podspec */,
-				8AAFF8AF890673A53FF1E5A18ABAF3D6 /* LICENSE */,
-				3A63998D182D67724151908FD97DE0A1 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		C9E771689945C3042D078AF43B415DCC /* Masonry */ = {
@@ -455,7 +440,6 @@
 				1D0FB1357DE7D247BE34CCB29EDCCFAC /* ViewController+MASAdditions.m */,
 				2F1DC79F1ECA9A14267BB11D984EE1B1 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -469,6 +453,20 @@
 				53296E97FBF30AF4F234CE434589FF3E /* Products */,
 				3519B1040878665299D84172CA673EC8 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		F07798714C25ED1D3A143D2DBA024F15 /* FYFLabelHeight */ = {
+			isa = PBXGroup;
+			children = (
+				945304892823BB08A11414A0F01FBD73 /* NSString+FYFSize.h */,
+				7433D3CAC451F82F82A595A3B9A9B14F /* NSString+FYFSize.m */,
+				9EA5D8739C63B3F7AE9AA5EE49C8A2B2 /* UILabel+FYFAttributed.h */,
+				E448611B0F488C1BAE67771116EB7321 /* UILabel+FYFAttributed.m */,
+				8484DC608EA58FB15C0E228D5557F640 /* Pod */,
+				66D413F116B801B40FD5912A18E78585 /* Support Files */,
+			);
+			name = FYFLabelHeight;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F4F09DBECA9DA51BA2AFE7F9FAF7779F /* Core */ = {
@@ -506,16 +504,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		178C528D5CAE7394846AF204F2D293CC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				711CF2F33740FBF7EE658802E310EEAB /* FYFLabelHeight-umbrella.h in Headers */,
-				7EB8BABC0E964E68C08A1168E7D6202F /* NSString+Size.h in Headers */,
-				2C953B0986EB49B029F2912F0F601A06 /* UILabel+Attributed.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		99B85BCB9C83E21C543919B8567EE8A3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -536,6 +524,16 @@
 				77545A28E8B98BC15BB0220A3B0EEA76 /* View+MASAdditions.h in Headers */,
 				747863A8CB00A36579584977D0090E3C /* View+MASShorthandAdditions.h in Headers */,
 				120EA60D03CFEEF2370587020458EACE /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE9374A0C90258AB7A20495009DAC597 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97518628E71F6624C6D5D2483EF558C /* FYFLabelHeight-umbrella.h in Headers */,
+				A1AB4057A8D284A467BD28AD8E341831 /* NSString+FYFSize.h in Headers */,
+				1FE906D1776953BE9D61D90E2912B79C /* UILabel+FYFAttributed.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,8 +575,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF8117531D27A058BAC68CEC5C3B3BC6 /* Build configuration list for PBXNativeTarget "FYFLabelHeight" */;
 			buildPhases = (
-				178C528D5CAE7394846AF204F2D293CC /* Headers */,
-				CA4E757A6DF1B3B9CFC06A4D3214E142 /* Sources */,
+				BE9374A0C90258AB7A20495009DAC597 /* Headers */,
+				689730329CEF3785EB56019BE7D3639E /* Sources */,
 				36083458F921BAED18F42F1A58E95058 /* Frameworks */,
 				DEFA31C231ADAA032CB43C61323ACC88 /* Resources */,
 			);
@@ -738,6 +736,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		689730329CEF3785EB56019BE7D3639E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB3B0D7A06FDDC70A7D5904C7D55C08C /* FYFLabelHeight-dummy.m in Sources */,
+				0F43BAB4B6819BC64D24BBF48936462C /* NSString+FYFSize.m in Sources */,
+				19B5539CF413F166B5969A183CE29277 /* UILabel+FYFAttributed.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B20B60490D874D5833C7863141C0308D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -761,16 +769,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3677C97C3AC1654EA03E32C02305D27F /* Pods-FYFLabelHeight_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA4E757A6DF1B3B9CFC06A4D3214E142 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C88E6F4D809113B1DE32A8F87890C7F /* FYFLabelHeight-dummy.m in Sources */,
-				EB255D00BE334141E5D1E476018354A4 /* NSString+Size.m in Sources */,
-				48044158A97C33844B9D2DE1B46366CD /* UILabel+Attributed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1059,7 +1057,7 @@
 		};
 		87C97F96AB05CF38E36B611F2BCE27E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9767CD1675F59D38AA6FD91B88FFCAEF /* FYFLabelHeight.debug.xcconfig */;
+			baseConfigurationReference = 1FF65723155E7493E2D44A9101109270 /* FYFLabelHeight.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1121,7 +1119,7 @@
 		};
 		A6D6579B4C106F487897313A7AF578CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4871A52CA55BF121B6E66A5A90FE11DD /* FYFLabelHeight.release.xcconfig */;
+			baseConfigurationReference = ACB016279124E4B071F61BC022072E41 /* FYFLabelHeight.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1236,8 +1234,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

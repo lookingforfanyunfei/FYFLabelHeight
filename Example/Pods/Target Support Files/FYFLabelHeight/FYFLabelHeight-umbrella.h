@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "NSString+Size.h"
-#import "UILabel+Attributed.h"
+#import "NSString+FYFSize.h"
+#import "UILabel+FYFAttributed.h"
 
 FOUNDATION_EXPORT double FYFLabelHeightVersionNumber;
 FOUNDATION_EXPORT const unsigned char FYFLabelHeightVersionString[];

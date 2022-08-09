@@ -1,18 +1,18 @@
 //
-//  NSString+Size.m
-//  KSForeignTrade
+//  NSString+FYFSize.m
+//  FYFLabelHeight
 //
 //  Created by 范云飞 on 2019/10/12.
-//  Copyright © 2019 kingstar. All rights reserved.
+//  Copyright © 2019 fanyunfei. All rights reserved.
 //
 
-#import "NSString+Size.h"
+#import "NSString+FYFSize.h"
 
 @implementation NSString (Size)
 
 #pragma mark - 计算(指定/不限)行数文字高度,可以处理计算带行间距、字间距
 
-- (CGFloat)boundingRectWithSize:(CGSize)size
+- (CGFloat)fyf_boundingRectWithSize:(CGSize)size
                            font:(UIFont*)font
                       lineSpace:(CGFloat)lineSpace
                       wordSpace:(CGFloat)wordSpace
@@ -23,7 +23,7 @@
     }
     
     if (numberOfLines == 0) {
-        CGSize orginalSize = [self boundingRectWithSize:size
+        CGSize orginalSize = [self fyf_boundingRectWithSize:size
                                                    font:font
                                               lineSpace:lineSpace
                                               wordSpace:wordSpace];
@@ -32,7 +32,7 @@
 
     CGFloat maxHeight = font.lineHeight * numberOfLines + lineSpace * (numberOfLines - 1);
 
-    CGSize orginalSize = [self boundingRectWithSize:size
+    CGSize orginalSize = [self fyf_boundingRectWithSize:size
                                                font:font
                                           lineSpace:lineSpace
                                           wordSpace:wordSpace];
@@ -44,7 +44,7 @@
     }
 }
 
-- (CGSize)boundingRectWithSize:(CGSize)size
+- (CGSize)fyf_boundingRectWithSize:(CGSize)size
                           font:(UIFont*)font
                      lineSpace:(CGFloat)lineSpace
                      wordSpace:(CGFloat)wordSpace {

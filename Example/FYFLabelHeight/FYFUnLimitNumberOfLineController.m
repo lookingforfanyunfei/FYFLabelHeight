@@ -8,8 +8,8 @@
 
 #import "FYFUnLimitNumberOfLineController.h"
 
-#import <FYFLabelHeight/UILabel+Attributed.h>
-#import <FYFLabelHeight/NSString+Size.h>
+#import <FYFLabelHeight/UILabel+FYFAttributed.h>
+#import <FYFLabelHeight/NSString+FYFSize.h>
 
 #import <Masonry/Masonry.h>
 
@@ -38,7 +38,7 @@
     
      
     
-    CGFloat height = [self.text boundingRectWithSize:CGSizeMake(SCREEN_WIDTH - 100, MAXFLOAT)
+    CGFloat height = [self.text fyf_boundingRectWithSize:CGSizeMake(SCREEN_WIDTH - 100, MAXFLOAT)
                                                 font:[UIFont systemFontOfSize:18]
                                            lineSpace:4.0
                                            wordSpace:0.0
@@ -51,7 +51,7 @@
         make.height.mas_equalTo(height);
     }];
 
-    [textLabel setLabelAttributedText:self.text
+    [textLabel fyf_setLabelAttributedText:self.text
                                  font:[UIFont systemFontOfSize:18]
                             lineSpace:4.f
                             wardSpace:0.f];
